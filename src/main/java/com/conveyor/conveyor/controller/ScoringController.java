@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CalculationController {
+public class ScoringController {
 
     @PostMapping("conveyor/calculation")
     public CreditDTO calculate(ScoringDataDTO scoringData) {
