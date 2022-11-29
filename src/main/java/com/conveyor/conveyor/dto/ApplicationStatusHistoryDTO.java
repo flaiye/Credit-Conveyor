@@ -1,5 +1,7 @@
 package com.conveyor.conveyor.dto;
 
+import com.conveyor.conveyor.dto.enums.ChangeType;
+import com.conveyor.conveyor.dto.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +15,7 @@ import java.time.LocalDateTime;
 @Builder
 public class ApplicationStatusHistoryDTO {
 
-    private Enum status;
+    private Status status;
     private LocalDateTime time;
-    private Enum changeType;
+    private ChangeType changeType;
 }

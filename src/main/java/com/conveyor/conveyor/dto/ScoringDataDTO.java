@@ -1,5 +1,7 @@
 package com.conveyor.conveyor.dto;
 
+import com.conveyor.conveyor.dto.enums.Gender;
+import com.conveyor.conveyor.dto.enums.MaritalStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,13 +21,13 @@ public class ScoringDataDTO {
     private String firstName;
     private String lastName;
     private String middleName;
-    private Enum gender;
+    private Gender gender;
     private LocalDate birthdate;
     private String passportSeries;
     private String passportNumber;
     private LocalDate passportIssueDate;
     private String passportIssueBranch;
-    private Enum maritalStatus;
+    private MaritalStatus maritalStatus;
     private Integer dependentAmount;
     private EmploymentDTO employment;
     private String account;
