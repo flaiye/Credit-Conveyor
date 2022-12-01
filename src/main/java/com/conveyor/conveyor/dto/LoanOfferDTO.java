@@ -19,5 +19,6 @@ public class LoanOfferDTO {
     private Integer term;
     private BigDecimal monthlyPayment;
     private BigDecimal rate;
+    private Boolean isInsuranceEnabled;
     private Boolean isSalaryClient;
 }
